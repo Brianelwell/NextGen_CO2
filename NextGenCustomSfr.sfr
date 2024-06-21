@@ -1,0 +1,20 @@
+[Sfr]
+sfr = "FLASH_ACR",	"Memory",	0x40022000,	4,	base=16
+sfr = "FLASH_KEYR",	"Memory",	0x40022008,	4,	base=16
+sfr = "FLASH_OPTKEYR",	"Memory",	0x4002200c,	4,	base=16
+sfr = "FLASH_SR",	"Memory",	0x40022010,	4,	base=16
+sfr = "FLASH_CR",	"Memory",	0x40022014,	4,	base=16
+sfr = "FLASH_OPTR",	"Memory",	0x40022020,	4,	base=16
+sfr = "FLASH_PCROP1ASR",	"Memory",	0x40022024,	4,	base=16
+sfr = "FLASH_PCROP1AER",	"Memory",	0x40022028,	4,	base=16
+sfr = "FLASH_WRP1AR",	"Memory",	0x4002202c,	4,	base=16
+sfr = "FLASH_WRP1BR",	"Memory",	0x40022030,	4,	base=16
+sfr = "FLASH_PCROP1BSR",	"Memory",	0x40022034,	4,	base=16
+sfr = "FLASH_PCROP1BER",	"Memory",	0x40022038,	4,	base=16
+sfr = "FLASH_SECR",	"Memory",	0x40022080,	4,	base=16
+
+
+[SfrGroupInfo]
+group = "Custom", "FLASH_ACR", "FLASH_KEYR", "FLASH_OPTKEYR", "FLASH_SR", "FLASH_CR", "FLASH_OPTR"
+group = "Custom", "FLASH_PCROP1ASR", "FLASH_PCROP1AER", "FLASH_WRP1AR", "FLASH_WRP1BR", "FLASH_PCROP1BSR", "FLASH_PCROP1BER"
+group = "Custom", "FLASH_SECR"
